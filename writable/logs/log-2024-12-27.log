@@ -1,0 +1,587 @@
+CRITICAL - 2024-12-27 03:57:57 --> ErrorException: Undefined property: CodeIgniter\View\View::$load
+[Method: GET, Route: /]
+in APPPATH\Views\login.php on line 9.
+ 1 APPPATH\Views\login.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'C:\\wamp64\\www\\cmru\\app\\Views\\login.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\cmru\\app\\Views\\login.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('login', [], true)
+ 5 APPPATH\Controllers\Mainapp.php(9): view('login')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mainapp->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mainapp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-27 04:03:02 --> ErrorException: Undefined variable $error
+[Method: GET, Route: /]
+in APPPATH\Views\login.php on line 64.
+ 1 APPPATH\Views\login.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $error', 'C:\\wamp64\\www\\cmru\\app\\Views\\login.php', 64)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\cmru\\app\\Views\\login.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('login', [], true)
+ 5 APPPATH\Controllers\Mainapp.php(9): view('login')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mainapp->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mainapp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-27 04:13:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 04:13:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 04:17:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 04:21:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 04:22:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 04:23:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 04:23:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 04:23:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 04:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 04:25:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-27 04:25:04 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+[Method: GET, Route: home]
+in APPPATH\Views\home.php on line 104.
+ 1 APPPATH\Views\home.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'C:\\wamp64\\www\\cmru\\app\\Views\\home.php', 104)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\cmru\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Mainapp.php(22): view('home')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mainapp->home()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mainapp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-27 04:26:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 04:26:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 04:26:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 04:26:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 04:26:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 04:26:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 04:26:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 04:26:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 04:27:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 04:27:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 04:27:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 04:28:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 04:28:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 04:28:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 04:28:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 04:30:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 04:30:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 04:33:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 04:33:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 04:34:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 04:35:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 04:35:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 04:36:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 04:36:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 04:37:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-27 04:37:47 --> Error: Call to undefined function nase_url()
+[Method: GET, Route: officer/add]
+in APPPATH\Views\addofficer.php on line 145.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('addofficer', [], true)
+ 4 APPPATH\Controllers\Mainapp.php(35): view('addofficer', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mainapp->addofficer()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mainapp))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-27 04:37:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 04:38:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 04:58:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:00:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:01:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:02:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:04:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:04:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:06:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:07:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:11:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-27 05:11:53 --> mysqli_sql_exception: Column 'workingLocation' cannot be null in C:\wamp64\www\cmru\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\wamp64\www\cmru\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `of...', 0)
+#1 C:\wamp64\www\cmru\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `of...')
+#2 C:\wamp64\www\cmru\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `of...')
+#3 C:\wamp64\www\cmru\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `of...', Array, false)
+#4 C:\wamp64\www\cmru\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\cmru\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\cmru\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\cmru\app\Controllers\Officer.php(55): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\cmru\system\CodeIgniter.php(933): App\Controllers\Officer->create()
+#9 C:\wamp64\www\cmru\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Officer))
+#10 C:\wamp64\www\cmru\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\cmru\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\wamp64\www\cmru\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\wamp64\www\cmru\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+INFO - 2024-12-27 05:12:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-27 05:12:17 --> mysqli_sql_exception: Column 'workingLocation' cannot be null in C:\wamp64\www\cmru\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\wamp64\www\cmru\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `of...', 0)
+#1 C:\wamp64\www\cmru\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `of...')
+#2 C:\wamp64\www\cmru\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `of...')
+#3 C:\wamp64\www\cmru\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `of...', Array, false)
+#4 C:\wamp64\www\cmru\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\cmru\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\cmru\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\cmru\app\Controllers\Officer.php(55): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\cmru\system\CodeIgniter.php(933): App\Controllers\Officer->create()
+#9 C:\wamp64\www\cmru\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Officer))
+#10 C:\wamp64\www\cmru\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\cmru\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\wamp64\www\cmru\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\wamp64\www\cmru\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+INFO - 2024-12-27 05:13:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-27 05:13:45 --> mysqli_sql_exception: Column 'workingLocation' cannot be null in C:\wamp64\www\cmru\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\wamp64\www\cmru\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `of...', 0)
+#1 C:\wamp64\www\cmru\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `of...')
+#2 C:\wamp64\www\cmru\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `of...')
+#3 C:\wamp64\www\cmru\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `of...', Array, false)
+#4 C:\wamp64\www\cmru\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\cmru\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\cmru\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\cmru\app\Controllers\Officer.php(55): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\cmru\system\CodeIgniter.php(933): App\Controllers\Officer->create()
+#9 C:\wamp64\www\cmru\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Officer))
+#10 C:\wamp64\www\cmru\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\cmru\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\wamp64\www\cmru\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\wamp64\www\cmru\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+INFO - 2024-12-27 05:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-27 05:15:15 --> mysqli_sql_exception: Column 'workingLocation' cannot be null in C:\wamp64\www\cmru\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\wamp64\www\cmru\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `of...', 0)
+#1 C:\wamp64\www\cmru\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `of...')
+#2 C:\wamp64\www\cmru\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `of...')
+#3 C:\wamp64\www\cmru\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `of...', Array, false)
+#4 C:\wamp64\www\cmru\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\cmru\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\cmru\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\cmru\app\Controllers\Officer.php(55): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\cmru\system\CodeIgniter.php(933): App\Controllers\Officer->create()
+#9 C:\wamp64\www\cmru\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Officer))
+#10 C:\wamp64\www\cmru\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\cmru\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\wamp64\www\cmru\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\wamp64\www\cmru\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+INFO - 2024-12-27 05:17:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-27 05:17:45 --> mysqli_sql_exception: Column 'workingLocation' cannot be null in C:\wamp64\www\cmru\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\wamp64\www\cmru\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `of...', 0)
+#1 C:\wamp64\www\cmru\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `of...')
+#2 C:\wamp64\www\cmru\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `of...')
+#3 C:\wamp64\www\cmru\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `of...', Array, false)
+#4 C:\wamp64\www\cmru\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\cmru\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\cmru\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\cmru\app\Controllers\Officer.php(55): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\cmru\system\CodeIgniter.php(933): App\Controllers\Officer->create()
+#9 C:\wamp64\www\cmru\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Officer))
+#10 C:\wamp64\www\cmru\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\cmru\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\wamp64\www\cmru\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\wamp64\www\cmru\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+ERROR - 2024-12-27 05:18:31 --> mysqli_sql_exception: Column 'workingLocation' cannot be null in C:\wamp64\www\cmru\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\wamp64\www\cmru\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `of...', 0)
+#1 C:\wamp64\www\cmru\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `of...')
+#2 C:\wamp64\www\cmru\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `of...')
+#3 C:\wamp64\www\cmru\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `of...', Array, false)
+#4 C:\wamp64\www\cmru\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\cmru\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\cmru\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\cmru\app\Controllers\Officer.php(55): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\cmru\system\CodeIgniter.php(933): App\Controllers\Officer->create()
+#9 C:\wamp64\www\cmru\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Officer))
+#10 C:\wamp64\www\cmru\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\cmru\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\wamp64\www\cmru\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\wamp64\www\cmru\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+INFO - 2024-12-27 05:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-27 05:19:03 --> mysqli_sql_exception: Column 'workingLocation' cannot be null in C:\wamp64\www\cmru\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\wamp64\www\cmru\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `of...', 0)
+#1 C:\wamp64\www\cmru\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `of...')
+#2 C:\wamp64\www\cmru\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `of...')
+#3 C:\wamp64\www\cmru\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `of...', Array, false)
+#4 C:\wamp64\www\cmru\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\cmru\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\cmru\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\cmru\app\Controllers\Officer.php(55): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\cmru\system\CodeIgniter.php(933): App\Controllers\Officer->create()
+#9 C:\wamp64\www\cmru\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Officer))
+#10 C:\wamp64\www\cmru\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\cmru\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\wamp64\www\cmru\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\wamp64\www\cmru\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+INFO - 2024-12-27 05:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:23:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:23:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:27:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:27:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:27:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:30:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:30:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:30:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:34:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-27 05:34:20 --> Error: Class "App\Controllers\OfficerModel" not found
+[Method: GET, Route: officers/edit]
+in APPPATH\Controllers\Mainapp.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mainapp->editofficer()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mainapp))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-27 05:34:45 --> ParseError: syntax error, unexpected double-quoted string "App\Controllers\OfficerModel"
+[Method: GET, Route: officers/edit]
+in APPPATH\Controllers\Mainapp.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\cmru\\app\\Controllers\\Mainapp.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Mainapp')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Mainapp')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Mainapp', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-27 05:35:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-27 05:35:03 --> Error: Class "App\Controllers\OfficerModel" not found
+[Method: GET, Route: officers/edit]
+in APPPATH\Controllers\Mainapp.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mainapp->editofficer()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mainapp))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-27 05:35:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:36:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:36:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:38:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:39:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:39:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:39:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:40:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:40:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:41:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:41:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:41:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:41:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:41:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:41:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:48:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:29:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:29:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:30:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:32:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:32:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:32:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:33:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:34:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:35:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:38:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:38:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:39:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:40:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:41:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:42:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:43:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:44:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:45:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:46:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:46:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:48:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:50:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 07:04:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 07:04:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 07:11:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 07:12:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 07:13:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 07:15:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 07:16:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 08:48:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 08:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 08:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 08:49:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-27 08:49:32 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\wamp64\www\cmru\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\wamp64\www\cmru\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `officer...', 0)
+#1 C:\wamp64\www\cmru\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `officer...')
+#2 C:\wamp64\www\cmru\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `officer...')
+#3 C:\wamp64\www\cmru\system\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `officer...', Array, false)
+#4 C:\wamp64\www\cmru\system\Model.php(460): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\wamp64\www\cmru\system\BaseModel.php(1028): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 C:\wamp64\www\cmru\system\Model.php(864): CodeIgniter\BaseModel->update(NULL, Array)
+#7 C:\wamp64\www\cmru\app\Controllers\Officer.php(89): CodeIgniter\Model->update()
+#8 C:\wamp64\www\cmru\system\CodeIgniter.php(933): App\Controllers\Officer->update()
+#9 C:\wamp64\www\cmru\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Officer))
+#10 C:\wamp64\www\cmru\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\cmru\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\wamp64\www\cmru\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\wamp64\www\cmru\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-12-27 08:49:32 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id' in 'where clause'
+[Method: POST, Route: officer/update]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `officer` SET `empName` = :empName:, `workingLocation` = :workingLocation:, `designation` = :designation:, `contactNo` = :contactNo:, `email` = :email:, `isdeleted` = :isdeleted:
+WHERE `id` = :id:', [...], false)
+ 2 SYSTEMPATH\Model.php(460): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate(null, [...])
+ 4 SYSTEMPATH\Model.php(864): CodeIgniter\BaseModel->update(null, [...])
+ 5 APPPATH\Controllers\Officer.php(89): CodeIgniter\Model->update()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Officer->update()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Officer))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-27 08:49:32 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `officer` SET `empName` = \'Kasun Kuruppu\', `workingLocation` = \'1\', `designation` = \'1\', `contactNo` = \'0716894852\', `email` = \'kasun@sjp.ac.lk\', `isdeleted` = 0
+WHERE `id` = \'10015\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `officer` SET `empName` = \'Kasun Kuruppu\', `workingLocation` = \'1\', `designation` = \'1\', `contactNo` = \'0716894852\', `email` = \'kasun@sjp.ac.lk\', `isdeleted` = 0
+WHERE `id` = \'10015\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `officer` SET `empName` = :empName:, `workingLocation` = :workingLocation:, `designation` = :designation:, `contactNo` = :contactNo:, `email` = :email:, `isdeleted` = :isdeleted:
+WHERE `id` = :id:', [...], false)
+ 4 SYSTEMPATH\Model.php(460): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate(null, [...])
+ 6 SYSTEMPATH\Model.php(864): CodeIgniter\BaseModel->update(null, [...])
+ 7 APPPATH\Controllers\Officer.php(89): CodeIgniter\Model->update()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Officer->update()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Officer))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-27 08:49:32 --> [Caused by] mysqli_sql_exception: Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `officer` SET `empName` = \'Kasun Kuruppu\', `workingLocation` = \'1\', `designation` = \'1\', `contactNo` = \'0716894852\', `email` = \'kasun@sjp.ac.lk\', `isdeleted` = 0
+WHERE `id` = \'10015\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `officer` SET `empName` = \'Kasun Kuruppu\', `workingLocation` = \'1\', `designation` = \'1\', `contactNo` = \'0716894852\', `email` = \'kasun@sjp.ac.lk\', `isdeleted` = 0
+WHERE `id` = \'10015\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `officer` SET `empName` = \'Kasun Kuruppu\', `workingLocation` = \'1\', `designation` = \'1\', `contactNo` = \'0716894852\', `email` = \'kasun@sjp.ac.lk\', `isdeleted` = 0
+WHERE `id` = \'10015\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `officer` SET `empName` = :empName:, `workingLocation` = :workingLocation:, `designation` = :designation:, `contactNo` = :contactNo:, `email` = :email:, `isdeleted` = :isdeleted:
+WHERE `id` = :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(460): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate(null, [...])
+ 7 SYSTEMPATH\Model.php(864): CodeIgniter\BaseModel->update(null, [...])
+ 8 APPPATH\Controllers\Officer.php(89): CodeIgniter\Model->update()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Officer->update()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Officer))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-27 08:51:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-27 08:51:25 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\wamp64\www\cmru\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\wamp64\www\cmru\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `officer...', 0)
+#1 C:\wamp64\www\cmru\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `officer...')
+#2 C:\wamp64\www\cmru\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `officer...')
+#3 C:\wamp64\www\cmru\system\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `officer...', Array, false)
+#4 C:\wamp64\www\cmru\system\Model.php(460): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\wamp64\www\cmru\system\BaseModel.php(1028): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 C:\wamp64\www\cmru\system\Model.php(864): CodeIgniter\BaseModel->update(NULL, Array)
+#7 C:\wamp64\www\cmru\app\Controllers\Officer.php(89): CodeIgniter\Model->update()
+#8 C:\wamp64\www\cmru\system\CodeIgniter.php(933): App\Controllers\Officer->update()
+#9 C:\wamp64\www\cmru\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Officer))
+#10 C:\wamp64\www\cmru\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\cmru\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\wamp64\www\cmru\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\wamp64\www\cmru\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-12-27 08:51:25 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id' in 'where clause'
+[Method: POST, Route: officer/update]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `officer` SET `empName` = :empName:, `workingLocation` = :workingLocation:, `designation` = :designation:, `contactNo` = :contactNo:, `email` = :email:, `isdeleted` = :isdeleted:
+WHERE `id` = :id:', [...], false)
+ 2 SYSTEMPATH\Model.php(460): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate(null, [...])
+ 4 SYSTEMPATH\Model.php(864): CodeIgniter\BaseModel->update(null, [...])
+ 5 APPPATH\Controllers\Officer.php(89): CodeIgniter\Model->update()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Officer->update()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Officer))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-27 08:51:25 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `officer` SET `empName` = \'Kasun Kuruppu\', `workingLocation` = \'1\', `designation` = \'1\', `contactNo` = \'0716894852\', `email` = \'kasun@sjp.ac.lk\', `isdeleted` = 0
+WHERE `id` = \'10015\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `officer` SET `empName` = \'Kasun Kuruppu\', `workingLocation` = \'1\', `designation` = \'1\', `contactNo` = \'0716894852\', `email` = \'kasun@sjp.ac.lk\', `isdeleted` = 0
+WHERE `id` = \'10015\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `officer` SET `empName` = :empName:, `workingLocation` = :workingLocation:, `designation` = :designation:, `contactNo` = :contactNo:, `email` = :email:, `isdeleted` = :isdeleted:
+WHERE `id` = :id:', [...], false)
+ 4 SYSTEMPATH\Model.php(460): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate(null, [...])
+ 6 SYSTEMPATH\Model.php(864): CodeIgniter\BaseModel->update(null, [...])
+ 7 APPPATH\Controllers\Officer.php(89): CodeIgniter\Model->update()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Officer->update()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Officer))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-27 08:51:25 --> [Caused by] mysqli_sql_exception: Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `officer` SET `empName` = \'Kasun Kuruppu\', `workingLocation` = \'1\', `designation` = \'1\', `contactNo` = \'0716894852\', `email` = \'kasun@sjp.ac.lk\', `isdeleted` = 0
+WHERE `id` = \'10015\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `officer` SET `empName` = \'Kasun Kuruppu\', `workingLocation` = \'1\', `designation` = \'1\', `contactNo` = \'0716894852\', `email` = \'kasun@sjp.ac.lk\', `isdeleted` = 0
+WHERE `id` = \'10015\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `officer` SET `empName` = \'Kasun Kuruppu\', `workingLocation` = \'1\', `designation` = \'1\', `contactNo` = \'0716894852\', `email` = \'kasun@sjp.ac.lk\', `isdeleted` = 0
+WHERE `id` = \'10015\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `officer` SET `empName` = :empName:, `workingLocation` = :workingLocation:, `designation` = :designation:, `contactNo` = :contactNo:, `email` = :email:, `isdeleted` = :isdeleted:
+WHERE `id` = :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(460): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate(null, [...])
+ 7 SYSTEMPATH\Model.php(864): CodeIgniter\BaseModel->update(null, [...])
+ 8 APPPATH\Controllers\Officer.php(89): CodeIgniter\Model->update()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Officer->update()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Officer))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-27 08:59:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-27 08:59:43 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\wamp64\www\cmru\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\wamp64\www\cmru\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `officer...', 0)
+#1 C:\wamp64\www\cmru\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `officer...')
+#2 C:\wamp64\www\cmru\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `officer...')
+#3 C:\wamp64\www\cmru\system\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `officer...', Array, false)
+#4 C:\wamp64\www\cmru\system\Model.php(460): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\wamp64\www\cmru\system\BaseModel.php(1028): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 C:\wamp64\www\cmru\system\Model.php(864): CodeIgniter\BaseModel->update(NULL, Array)
+#7 C:\wamp64\www\cmru\app\Controllers\Officer.php(89): CodeIgniter\Model->update()
+#8 C:\wamp64\www\cmru\system\CodeIgniter.php(933): App\Controllers\Officer->update()
+#9 C:\wamp64\www\cmru\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Officer))
+#10 C:\wamp64\www\cmru\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\cmru\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\wamp64\www\cmru\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\wamp64\www\cmru\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-12-27 08:59:43 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id' in 'where clause'
+[Method: POST, Route: officer/update]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `officer` SET `empName` = :empName:, `workingLocation` = :workingLocation:, `designation` = :designation:, `contactNo` = :contactNo:, `email` = :email:, `isdeleted` = :isdeleted:
+WHERE `id` = :id:', [...], false)
+ 2 SYSTEMPATH\Model.php(460): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate(null, [...])
+ 4 SYSTEMPATH\Model.php(864): CodeIgniter\BaseModel->update(null, [...])
+ 5 APPPATH\Controllers\Officer.php(89): CodeIgniter\Model->update()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Officer->update()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Officer))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-27 08:59:43 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `officer` SET `empName` = \'Kasun Kuruppu\', `workingLocation` = \'1\', `designation` = \'1\', `contactNo` = \'0716894852\', `email` = \'kasun@sjp.ac.lk\', `isdeleted` = 0
+WHERE `id` = \'10015\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `officer` SET `empName` = \'Kasun Kuruppu\', `workingLocation` = \'1\', `designation` = \'1\', `contactNo` = \'0716894852\', `email` = \'kasun@sjp.ac.lk\', `isdeleted` = 0
+WHERE `id` = \'10015\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `officer` SET `empName` = :empName:, `workingLocation` = :workingLocation:, `designation` = :designation:, `contactNo` = :contactNo:, `email` = :email:, `isdeleted` = :isdeleted:
+WHERE `id` = :id:', [...], false)
+ 4 SYSTEMPATH\Model.php(460): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate(null, [...])
+ 6 SYSTEMPATH\Model.php(864): CodeIgniter\BaseModel->update(null, [...])
+ 7 APPPATH\Controllers\Officer.php(89): CodeIgniter\Model->update()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Officer->update()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Officer))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-27 08:59:43 --> [Caused by] mysqli_sql_exception: Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `officer` SET `empName` = \'Kasun Kuruppu\', `workingLocation` = \'1\', `designation` = \'1\', `contactNo` = \'0716894852\', `email` = \'kasun@sjp.ac.lk\', `isdeleted` = 0
+WHERE `id` = \'10015\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `officer` SET `empName` = \'Kasun Kuruppu\', `workingLocation` = \'1\', `designation` = \'1\', `contactNo` = \'0716894852\', `email` = \'kasun@sjp.ac.lk\', `isdeleted` = 0
+WHERE `id` = \'10015\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `officer` SET `empName` = \'Kasun Kuruppu\', `workingLocation` = \'1\', `designation` = \'1\', `contactNo` = \'0716894852\', `email` = \'kasun@sjp.ac.lk\', `isdeleted` = 0
+WHERE `id` = \'10015\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `officer` SET `empName` = :empName:, `workingLocation` = :workingLocation:, `designation` = :designation:, `contactNo` = :contactNo:, `email` = :email:, `isdeleted` = :isdeleted:
+WHERE `id` = :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(460): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate(null, [...])
+ 7 SYSTEMPATH\Model.php(864): CodeIgniter\BaseModel->update(null, [...])
+ 8 APPPATH\Controllers\Officer.php(89): CodeIgniter\Model->update()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Officer->update()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Officer))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-27 09:00:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 09:01:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 09:01:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 09:03:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 09:03:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 09:04:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 09:04:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 09:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 09:04:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 09:04:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 09:05:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 09:05:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 09:05:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 09:05:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 09:05:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 09:06:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 09:06:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 09:06:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 09:06:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 09:06:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 09:07:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 09:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 09:07:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 09:08:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 09:08:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 09:08:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 09:08:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 09:08:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 09:10:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 09:10:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 09:10:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 09:10:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 09:10:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 09:10:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 10:01:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 10:02:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 10:08:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 10:11:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 10:16:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 10:18:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 10:20:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 10:21:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 10:21:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 10:21:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 10:22:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 10:28:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 10:29:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 10:29:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 10:29:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 10:30:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 10:31:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 10:31:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 10:31:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 10:31:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 10:31:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 10:31:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 10:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 10:31:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 13:02:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
