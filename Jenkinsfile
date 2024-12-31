@@ -10,7 +10,7 @@ pipeline {
         // Checkout the code from GitHub repository
         stage('Checkout') {
             steps {
-                git credentialsId: 'git-pat', url: 'https://github.com/jinadi/cmru-webapp.git'
+                git branch: 'main', credentialsId: 'git-pat', url: 'https://github.com/jinadi/cmru-webapp.git'
             }
         }
 
