@@ -28,7 +28,7 @@ class Database extends Config
         'DSN'          => '',
         'hostname'     => 'db',
         'username'     => 'jinadi',
-        'password'     => 'Jkd@880',
+        'password'     => 'Jkd@1988',
         'database'     => 'cmrudb',
         'DBDriver'     => 'MySQLi',
         'DBPrefix'     => '',
